@@ -9,8 +9,15 @@
 
 .nav-item {
     padding-left: 20px;
-    font-weight: bolder; }
+    font-weight: bolder; 
+}
+.nav-link {
+    color: white;
+}
 
     .navbar-toggler-icon {
         background-image: url();
         padding: 20px; }
+.headerpic {
+    width: 100%;
+}
