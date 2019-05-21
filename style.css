@@ -1,3 +1,16 @@
 .navbar {
     z-index: 2;
     width: 100%; }
+
+.bg-nav {
+    background-color: rgba(0, 124, 182, 0.507);
+    opacity: 0.8; 
+}
+
+.nav-item {
+    padding-left: 20px;
+    font-weight: bolder; }
+
+    .navbar-toggler-icon {
+        background-image: url();
+        padding: 20px; }
