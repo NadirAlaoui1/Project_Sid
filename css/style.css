@@ -124,7 +124,7 @@
       width: 186px;
       height: 133px;
   }
-  *{
+  {
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
@@ -303,7 +303,7 @@
     padding-top: 5px;
   }
   .footer-link ul li a{
-    font-size: 22px;
+    font-size: 14px;
     color: #fff;
     text-decoration: none;
      text-transform: capitalize;;
@@ -399,8 +399,4 @@
     .footer-social-icons ul li{
       margin-bottom: 5px;
     }
-  }
-  #Homepic {
-    width: 500px;
-    height: 500px;
   }
