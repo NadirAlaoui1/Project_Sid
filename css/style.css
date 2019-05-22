@@ -124,6 +124,11 @@
       width: 186px;
       height: 133px;
   }
+  *{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
   body{
     font-family: 'Open Sans', sans-serif;
   }
@@ -298,7 +303,7 @@
     padding-top: 5px;
   }
   .footer-link ul li a{
-    font-size: 14px;
+    font-size: 22px;
     color: #fff;
     text-decoration: none;
      text-transform: capitalize;;
