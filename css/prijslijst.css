@@ -66,8 +66,9 @@
   
   header.masthead {
     text-align: center;
-    color: white;
-    background-image: url("../images/backgroundhomepage.jpg");
+    color: black;
+    text-shadow: 0px 0px 4px #F6F6F6;
+    background-image: url("../images/backgroundprijslijst.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -365,7 +366,7 @@
     }
   }
 .padding-bottom {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 .padding-top {
   padding-top: 50px;
