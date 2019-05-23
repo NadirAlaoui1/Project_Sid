@@ -124,7 +124,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
         $(Window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 450);
+        });
+
+        $(function () { 
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 450) { 
+                    $('.navbar .navbar-brand img').attr('src','images/Sids_logo1.png');
+            }
+                if ($(this).scrollTop() < 450) { 
+                    $('.navbar .navbar-brand img').attr('src','images/Sids_logo.png');
+            }
+            })
         });
     </script>
   </body>
