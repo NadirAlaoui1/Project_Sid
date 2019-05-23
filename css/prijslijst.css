@@ -75,6 +75,9 @@ html, body {
       padding: 12px 0;
     }
   }
+  nav.scrolled img {
+    display: none !important;
+  }
   
   header.masthead {
     text-align: center;
