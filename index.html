@@ -121,17 +121,6 @@
         $(Window).scroll(function(){
         $('nav').toggleClass('scrolled', $(this).scrollTop() > 450);
         });
-
-        $(function () { 
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 450) { 
-                    $('.navbar .navbar-brand img').attr('src','images/Sids_logo1.png');
-            }
-                if ($(this).scrollTop() < 450) { 
-                    $('.navbar .navbar-brand img').attr('src','images/Sids_logo.png');
-            }
-            })
-        });
     </script>
   </body>
 </html>
