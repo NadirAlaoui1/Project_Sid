@@ -28,7 +28,7 @@
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: rgb(218, 40, 40);
+  color: #eab047;
   font-family: 'Merienda', cursive;
 }
 
@@ -67,11 +67,11 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../images/backgroundhomepage.jpg");
+  background-image: url("../images/ups-access-point.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-color: #332218
 }
 
 header.masthead .intro-text {
