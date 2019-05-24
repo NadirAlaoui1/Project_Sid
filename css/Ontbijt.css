@@ -73,6 +73,7 @@
   header.masthead {
     text-align: center;
     color: white;
+    text-shadow: 0px 0px 4px black;
     background-image: url("../images/Backgroundontbijt.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
